@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 1.5em;
+}
+
+.video-container {
+    position: relative;
+    display: inline-block;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* AI Sign Language Video Overlay */
+#signLanguageAvatar {
+    position: absolute;
+    bottom: 10px;
+    right: 170px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+}
+
+/* Sign Language Alphabet Image Overlay */
+#signLanguageImage1 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+}
+
+/* Additional Sign Language Image Overlay */
+#signLanguageImage2 {
+    position: absolute;
+    bottom: 180px;
+    right: 10px;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+}

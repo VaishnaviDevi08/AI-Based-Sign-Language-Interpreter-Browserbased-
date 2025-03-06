@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Sign Language Interpreter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>AI-Based Sign Language Interpreter</h1>
+
+    <div class="video-container">
+        <!-- YouTube Shorts Video -->
+        <iframe id="youtubeVideo"
+            src="https://www.youtube.com/embed/b98DoHNUfbk"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+        <!-- AI Sign Language Video -->
+        <video id="signLanguageAvatar" autoplay loop muted>
+            <source src="videos/avatar.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Sign Language Alphabet Image -->
+        <img id="signLanguageImage1" src="images/sign_language_image.jpg" alt="Sign Language Alphabet">
+
+        <!-- Additional Sign Language Image -->
+        <img id="signLanguageImage2" src="https://hobbyfaqs.com/wp-content/uploads/2024/01/Depositphotos_231581030_S.jpg" alt="Sign Language Representation">
+    </div>
+
+    <button id="translateButton">Start Translation</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
